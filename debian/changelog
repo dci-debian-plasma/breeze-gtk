@@ -1,4 +1,4 @@
-breeze-gtk (5.5.4-1~) UNRELEASED; urgency=medium
+breeze-gtk (5.5.4-1) experimental; urgency=medium
 
   * Initial release (5.5.0).
   * New upstream release (5.5.1).
@@ -6,4 +6,4 @@ breeze-gtk (5.5.4-1~) UNRELEASED; urgency=medium
   * New upstream release (5.5.3).
   * New upstream release (5.5.4).
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Jan 2016 11:59:02 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Jan 2016 16:48:48 +0100
