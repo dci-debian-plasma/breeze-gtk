@@ -2,11 +2,5 @@
 
 include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
 
-override_dh_fixperms:
-                       dh_fixperms
-                       chmod 4755 debian/gtk3-engines-breeze/usr/share/themes/Breeze-Dark/gtk-2.0/render-assets.sh
-                       chmod 4755 debian/gtk3-engines-breeze/usr/share/themes/Breeze/gtk-2.0/render-assets.sh
-                       chmod 4755 debian/gtk3-engines-breeze/usr/share/themes/Breeze/gtk-3.0/render-assets.sh
-
 override_dh_auto_test:
 	xvfb-run dh_auto_test
