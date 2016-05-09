@@ -1,6 +1,6 @@
-breeze-gtk (5.6.3-1~1.gbpd75aab) UNRELEASED; urgency=medium
+breeze-gtk (5.6.3-1~2.gbpae539d) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @d75aab2d9ae99690763997fbff45f10a5df5b222 **
+  ** SNAPSHOT build @ae539d9c5ec008de2352174d432ff9503a8651d8 **
 
   [ Maximiliano Curia ]
   ** SNAPSHOT build @73630e82943d5057144baf0fa7cad279d6ea974d **
@@ -10,11 +10,12 @@ breeze-gtk (5.6.3-1~1.gbpd75aab) UNRELEASED; urgency=medium
   * Add upstream metadata (DEP-12)
   * Drop testsuite dependency on experimental package libqt5xcbqpa5
   * UNRELEASED
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
 
   [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Tue, 19 Apr 2016 18:23:14 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 09 May 2016 13:23:15 +0200
 
 breeze-gtk (5.5.5-1~) UNRELEASED; urgency=medium
 
