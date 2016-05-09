@@ -19,9 +19,9 @@ Build-Depends: cmake (>= 3.2),
                pkg-kde-tools (>= 0.15.16),
                qtbase5-dev
 Homepage: https://projects.kde.org/projects/kde/workspace/breeze-gtk
+Standards-Version: 3.9.8
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/plasma/breeze-gtk.git
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/plasma/breeze-gtk.git
-Standards-Version: 3.9.6
 
 Package: gtk3-engines-breeze
 Architecture: any

@@ -1,10 +1,20 @@
-breeze-gtk (5.6.2-1~1.gbp73630e) UNRELEASED; urgency=medium
+breeze-gtk (5.6.3-1~1.gbpd75aab) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @d75aab2d9ae99690763997fbff45f10a5df5b222 **
+
+  [ Maximiliano Curia ]
   ** SNAPSHOT build @73630e82943d5057144baf0fa7cad279d6ea974d **
 
   * UNRELEASED
+  * New upstream release (5.5.5).
+  * Add upstream metadata (DEP-12)
+  * Drop testsuite dependency on experimental package libqt5xcbqpa5
+  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Wed, 06 Apr 2016 23:23:12 +0200
+  [ Automatic packaging ]
+  * Bump Standards-Version to 3.9.8
+
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Tue, 19 Apr 2016 18:23:14 +0200
 
 breeze-gtk (5.5.5-1~) UNRELEASED; urgency=medium
 
