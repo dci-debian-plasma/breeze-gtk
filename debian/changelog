@@ -1,10 +1,13 @@
-breeze-gtk (5.6.5-1~1.gbpef3443) UNRELEASED; urgency=medium
+breeze-gtk (5.6.5-1~2.gbpbe2201) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @ef344347287a6fdb3d7d5441317304d8f74ec7a1 **
+  ** SNAPSHOT build @be220193ba5bc44b0acaae42bda531f2dc632b5c **
 
   * UNRELEASED
+  * Add upstream patch: upstream_update_for_gtk_3.20.patch
+  * Add upstream patch: upstream_properly_install_theme.patch
+  * Force the use of gtk 3.20
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 14 Jun 2016 18:23:09 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Thu, 16 Jun 2016 12:34:33 +0200
 
 breeze-gtk (5.6.4-1) unstable; urgency=medium
 
