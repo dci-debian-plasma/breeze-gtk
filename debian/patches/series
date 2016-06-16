@@ -1,1 +1,2 @@
 upstream_update_for_gtk_3.20.patch
+upstream_properly_install_theme.patch
