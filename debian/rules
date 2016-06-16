@@ -2,6 +2,9 @@
 
 include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
 
+override_dh_auto_configure:
+	$(overridden_command) -- -DWITH_GTK3_VERSION=3.20
+
 override_dh_auto_test:
 	# Disable dh_auto_test at build time
 	:
