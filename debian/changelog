@@ -1,3 +1,12 @@
+breeze-gtk (5.6.95-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream beta release (5.6.95).
+    - Drop all patches.
+    - Fixes missing asset/ files.
+
+ -- Felix Geyer <fgeyer@debian.org>  Thu, 23 Jun 2016 17:49:42 +0200
+
 breeze-gtk (5.6.5-1) unstable; urgency=medium
 
   * Add upstream patch: upstream_update_for_gtk_3.20.patch
