@@ -1,3 +1,11 @@
+breeze-gtk (5.7.4-1~1.gbp11d51f) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @11d51f6b8478923ecdae2acdaf573f42e128da8a **
+
+  * UNRELEASED
+
+ -- Felix Geyer <jenkins@gnuservers.com.ar>  Fri, 26 Aug 2016 10:33:08 +0200
+
 breeze-gtk (5.6.95-1) unstable; urgency=medium
 
   * Team upload.
