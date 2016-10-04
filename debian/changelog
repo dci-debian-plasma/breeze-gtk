@@ -1,10 +1,11 @@
-breeze-gtk (5.7.5-1~1.gbp246a0b) UNRELEASED; urgency=medium
+breeze-gtk (5.8.0-1~1.gbpfd4d92) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @246a0b895b9a0448c39a2584735b68059c0784d6 **
+  ** SNAPSHOT build @fd4d92440774f9404a4c1f029c7477e6d1c46937 **
 
   * UNRELEASED
+  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 13 Sep 2016 18:23:36 +0200
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 04 Oct 2016 13:38:47 +0200
 
 breeze-gtk (5.7.4-1) unstable; urgency=medium
 
