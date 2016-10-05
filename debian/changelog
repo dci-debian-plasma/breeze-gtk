@@ -7,11 +7,53 @@ breeze-gtk (5.8.0-1~1.gbpfd4d92) UNRELEASED; urgency=medium
 
  -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 04 Oct 2016 13:38:47 +0200
 
+breeze-gtk (5.8.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 30 Sep 2016 11:29:16 +0000
+
+breeze-gtk (5.7.5-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 13 Sep 2016 13:45:24 +0000
+
 breeze-gtk (5.7.4-1) unstable; urgency=medium
 
   * New upstream release (5.7.4).
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 26 Aug 2016 14:45:46 +0200
+
+breeze-gtk (5.7.4-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 23 Aug 2016 17:27:22 +0000
+
+breeze-gtk (5.7.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 02 Aug 2016 12:04:05 +0000
+
+breeze-gtk (5.7.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 19 Jul 2016 13:45:58 +0000
+
+breeze-gtk (5.7.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 12 Jul 2016 16:06:03 +0000
+
+breeze-gtk (5.7.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 04 Jul 2016 13:16:06 +0000
 
 breeze-gtk (5.6.95-1) unstable; urgency=medium
 
@@ -30,6 +72,12 @@ breeze-gtk (5.6.5-1) unstable; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 23 Jun 2016 09:36:45 +0200
 
+breeze-gtk (5.6.5-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 14 Jun 2016 14:15:35 +0000
+
 breeze-gtk (5.6.4-1) unstable; urgency=medium
 
   [ Maximiliano Curia ]
@@ -43,6 +91,30 @@ breeze-gtk (5.6.4-1) unstable; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 26 May 2016 19:10:54 +0200
 
+breeze-gtk (5.6.4-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 11 May 2016 09:41:29 +0000
+
+breeze-gtk (5.6.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 19 Apr 2016 16:54:04 +0000
+
+breeze-gtk (5.6.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 08 Apr 2016 11:43:55 +0000
+
+breeze-gtk (5.5.5-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Tue, 08 Mar 2016 22:26:36 +0100
+
 breeze-gtk (5.5.4-1) experimental; urgency=medium
 
   * Initial release (5.5.0).
@@ -52,3 +124,16 @@ breeze-gtk (5.5.4-1) experimental; urgency=medium
   * New upstream release (5.5.4).
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Jan 2016 16:48:48 +0100
+breeze-gtk (5.5.4-0ubuntu1) xenial; urgency=medium
+
+  [ Maximiliano Curia ]
+  * Initial release (5.5.0).
+
+  [ Clive Johnston ]
+  * new upstream release
+  * Adding build dependencies
+  * Enabling xvfb-run for autotests
+  * New upstream release
+  * New upstream release
+
+ -- Clive Johnston <clivejo@aol.com>  Mon, 07 Mar 2016 21:18:48 +0100
