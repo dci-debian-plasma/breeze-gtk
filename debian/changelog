@@ -1,11 +1,62 @@
-breeze-gtk (5.8.0-1~1.gbpfd4d92) UNRELEASED; urgency=medium
+breeze-gtk (5.8.0-1~2.gbpc2b129) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @c2b12908e08b5b90c48658ae418e210eaa050dda **
+
+  [ Maximiliano Curia ]
   ** SNAPSHOT build @fd4d92440774f9404a4c1f029c7477e6d1c46937 **
 
   * UNRELEASED
   * UNRELEASED
+  * Replace dbus-launch with dbus-run-session in tests
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 04 Oct 2016 13:38:47 +0200
+  [ Clive Johnston ]
+  * new upstream release
+  * Adding build dependencies
+  * Adding more build deps
+  * Adding more build deps
+  * Trying to fix build deps
+  * Adding another build dep
+  * More build deps
+  * Disable auto-tests as one of them requires X
+  * Enabling xvfb-run for autotests
+  * Fixing ident
+  * Fixing indent
+  * New upstream release
+  * New upstream release
+  * Adding a dh_fixperms block to rules to make scripts executable
+  * Fixing 8 spaces in rules
+  * Fixing tabbed ident
+  * Revert "Fixing tabbed ident"
+  * Revert "Fixing 8 spaces in rules"
+  * Revert "Adding a dh_fixperms block to rules to make scripts executable"
+
+  [ Philip Muškovac ]
+  * Build-depend on xvfb
+  * Fix watch file
+  * Change the version to 5.5.3a to work around a corrupt tarball
+  * NOCI Release to xenial.
+  * New upstream bugfix release
+
+  [ Neon CI ]
+  * New release
+  * New release
+  * New release
+  * New release
+  * New release
+  * New release
+  * New release
+  * New release
+  * New release
+  * New release
+  * New release
+
+  [ Jonathan Riddell ]
+  * update watch file to version=4 with pgp signature checking
+  * only stable tars used in neon
+  * update signing key to add david edmundson
+  * NOCI
+
+ -- Clive Johnston <clivejo@aol.com>  Wed, 05 Oct 2016 17:23:38 +0200
 
 breeze-gtk (5.8.0-0neon) xenial; urgency=medium
 
