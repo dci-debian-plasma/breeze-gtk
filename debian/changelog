@@ -1,10 +1,8 @@
-breeze-gtk (5.8.1-1~1.gbpabf03a) UNRELEASED; urgency=medium
+breeze-gtk (5.8.1-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @abf03a3af70380769ec8133422cdf1b077b5c4a4 **
+  * New upstream release (5.8.1).
 
-  * UNRELEASED
-
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Thu, 13 Oct 2016 18:23:34 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 16 Oct 2016 22:54:31 +0200
 
 breeze-gtk (5.8.0-1) unstable; urgency=medium
 
