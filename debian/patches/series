@@ -1,2 +1,3 @@
+no_gtk3_scrollbar_stepper.patch
 0001-Figure-out-the-GTK-version-instead-of-using-a-hardco.patch
 0002-No-need-for-WITH_GTK3_VERSION-anymore.patch

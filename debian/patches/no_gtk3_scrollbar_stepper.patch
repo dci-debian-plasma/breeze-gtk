@@ -1,0 +1,38 @@
+Description: Set no stepper button for GTK3 scrollbars
+  This is a temporary workaround to mitigate broken scrollbars in
+  mozilla GTK3 based applications in GTK3 >= 3.20. Firefox v52
+  onwards etc.
+Author: Rik Mills <rikmills@kubuntu.org>
+Bug: https://bugs.kde.org/show_bug.cgi?id=377008
+Bug: https://bugzilla.mozilla.org/show_bug.cgi?id=1343802
+
+Index: breeze-gtk-5.9.3/Breeze-dark-gtk/gtk-3.20/gtk.css
+===================================================================
+--- breeze-gtk-5.9.3.orig/Breeze-dark-gtk/gtk-3.20/gtk.css
++++ breeze-gtk-5.9.3/Breeze-dark-gtk/gtk-3.20/gtk.css
+@@ -3123,8 +3123,8 @@
+  * Scrollbars *
+  **************/
+ scrollbar {
+-  -GtkScrollbar-has-backward-stepper: true;
+-  -GtkScrollbar-has-forward-stepper: true;
++  -GtkScrollbar-has-backward-stepper: false;
++  -GtkScrollbar-has-forward-stepper: false;
+   background-color: #31363b;
+   border-width: 3px 0px;
+   border-color: #31363b;
+Index: breeze-gtk-5.9.3/Breeze-gtk/gtk-3.20/gtk.css
+===================================================================
+--- breeze-gtk-5.9.3.orig/Breeze-gtk/gtk-3.20/gtk.css
++++ breeze-gtk-5.9.3/Breeze-gtk/gtk-3.20/gtk.css
+@@ -3123,8 +3123,8 @@
+  * Scrollbars *
+  **************/
+ scrollbar {
+-  -GtkScrollbar-has-backward-stepper: true;
+-  -GtkScrollbar-has-forward-stepper: true;
++  -GtkScrollbar-has-backward-stepper: false;
++  -GtkScrollbar-has-forward-stepper: false;
+   background-color: #eff0f1;
+   border-width: 3px 0px;
+   border-color: #eff0f1;
