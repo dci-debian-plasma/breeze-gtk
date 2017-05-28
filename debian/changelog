@@ -1,3 +1,20 @@
+breeze-gtk (5.8.7-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (5.8.7)
+     + Set no stepper button for GTK3 scrollbars on gtk >=3.20
+       This is a workaround to mitigate broken (huge wide) scrollbars in
+       mozilla/Gecko based applications for GTK3 >= 3.20 in versions 52
+       onwards.
+       Ref: https://bugs.kde.org/show_bug.cgi?id=377008 and
+            https://bugzilla.mozilla.org/show_bug.cgi?id=1343802
+       The mozilla bug is now 'fixed' and landing in nightlies v55, but may
+       continue to affect earlier releases if not brought forward upstream.
+       Regardless of any other concern, applying this brings the appearance
+       of newer breeze and breeze-gtk scrollars into closer accord.
+       KDE#377008
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 28 May 2017 18:50:31 +0200
+
 breeze-gtk (5.8.5-1) experimental; urgency=medium
 
   * New upstream release (5.8.5).
