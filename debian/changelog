@@ -1,8 +1,14 @@
-breeze-gtk (5.10.3-1~) UNRELEASED; urgency=medium
+breeze-gtk (5.10.4-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.10.3).
+  * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 4.0.0.
+  * Update upstream metadata
+  * Rename package to breeze-gtk-theme.
+    Thanks to Jeremy Bicha and George B. (Closes: 822975)
+  * New upstream release (5.10.4).
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 08 Jul 2017 11:46:05 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 17 Aug 2017 13:25:04 +0200
 
 breeze-gtk (5.8.7-1) unstable; urgency=medium
 
