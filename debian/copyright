@@ -9,8 +9,6 @@ License: LGPL-2.1+
 Files: debian/*
 Copyright: 2015, Maximiliano Curia <maxy@debian.org>
 License: Permissive
- The packaging efforts in this debian package are free software; the copyright
- holder(s) give unlimited permission to copy, distribute and modify it.
 
 License: LGPL-2.1+
  This library is free software; you can redistribute it and/or
@@ -25,3 +23,7 @@ License: LGPL-2.1+
  .
  The complete text of the GNU Lesser General Public License version 2.1 can be
  found in `/usr/share/common-licenses/LGPL-2.1'.
+
+License: Permissive
+ The packaging efforts in this debian package are free software; the copyright
+ holder(s) give unlimited permission to copy, distribute and modify it.
